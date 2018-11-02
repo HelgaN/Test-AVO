@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Akveo test</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-container">
+    <div class="container">
+      <header class="page-header">
+        <div class="page-header__logo-wrapper">
+          <a class="page-header__logo" href="#">
+          <img class="page-header__logo-image" src="img/2.svg" width="42" height="42" alt="Logo Geotrack">
+          <div class="page-header__logo-wrapper-inner">
+            <span class="page-header__logo-name">Geotrack</span>
+            <span class="page-header__logo-version">ver 1.0</span>
+          </div>
+        </a>
+        </div>
+
+        <nav class="main-navigation main-navigation--opened main-navigation--nojs">
+          <button class="main-navigation__toggle" type="button">
+          <span class="visually-hidden">Open menu</span>
+        </button>
+
+          <div class="main-navigation__wrapper">
+            <ul class="main-navigation__list">
+              <li class="main-navigation__item">
+                <a class="main-navigation__link main-navigation__link--active" href="#">Geomap</a>
+              </li>
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#">Home</a>
+              </li>
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#">About</a>
+              </li>
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#">Features</a>
+              </li>
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#">Pricing</a>
+              </li>
+            </ul>
+
+            <form class="main-navigation__search" action="URL" method="get">
+              <button class="main-navigation__search-button" type="submit">
+                <span class="visually-hidden">Search</span>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+               <path d="M15.7,14.3l-3.104-3.104C13.473,10.023,14,8.576,14,7c0-3.866-3.134-7-7-7S0,3.134,0,7s3.134,7,7,7
+            	 c1.576,0,3.023-0.527,4.193-1.404L14.3,15.7c0.185,0.184,0.38,0.3,0.7,0.3c0.553,0,1-0.447,1-1C 16,14.781,15.945,14.546,15.7,14.3z
+            	 M2,7c0-2.762,2.238-5,5-5s5,2.238,5,5s-2.238,5-5,5S2,9.762,2,7z"/>
+               </svg>
+              </button>
+              <input class="main-navigation__search-input" type="search" placeholder="Search geotrack">
+            </form>
+
+            <ul class="main-navigation__user-list">
+              <li class="main-navigation__user-list-item">
+                <a class="main-navigation__user-list-link" href="#">
+                  <img class="main-navigation__user-list-image" src="img/ava.png" alt="Avatar">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+
+      </header>
+
+      <main class="page-main">
+        <h1 class="visually-hidden">The app GEOTRACK</h1>
+
+        <section class="object">
+          <div class="object__wrapper">
+            <div class="object__wrapper-inner--one">
+              <img class="object__logo" src="img/logo-univer.png" alt="California University Logo">
+              <img class="object__qr" src="img/qr.png" alt="California University QR code">
+              <button class="object__button-next"></button>
+            </div>
+
+            <div class="object__wrapper-inner--two">
+              <h2 class="object__title">California University</h2>
+              <p class="object__id">id: 1238923748903478914751089</p>
+              <button class="object__button-copy">Copy in buffer</button>
+            </div>
+          </div>
+
+          <table class="object__table">
+            <tr class="object__table-row">
+              <th class="object__table-title">Geo Type:</th>
+              <td class="object__table-info">Government</td>
+            </tr>
+            <tr class="object__table-row">
+              <th class="object__table-title">Short Geo:</th>
+              <td class="object__table-info">CA_University</td>
+            </tr>
+            <tr class="object__table-row">
+              <th class="object__table-title">Address:</th>
+              <td class="object__table-info">United States, California LA, Sarigza Avenue 234, 44A</td>
+            </tr>
+            <tr class="object__table-row">
+              <th class="object__table-title">Email:</th>
+              <td class="object__table-info"><a class="object__table-info--email" href="#">ca@university@gmail.com</a></td>
+            </tr>
+            <tr class="object__table-row">
+              <th class="object__table-title">Expiere:</th>
+              <td class="object__table-info">31 Oct 2016</td>
+            </tr>
+            <tr class="object__table-row">
+              <th class="object__table-title">Privacy:</th>
+              <td class="object__table-info">Enable</td>
+            </tr>
+          </table>
+
+          <div>
+            <button class="object__button-edit">Edit Profile</button>
+          </div>
+
+        </section>
+
+        <section class="geo">
+          <div class="geo__message">
+            <h3 class="geo__message-title">Geo Message</h3>
+            <p class="geo__message-paragraph">The results of yesterday's election came as a surprise to most of us, regardless of our political views. It will take time for us to process and understand the meaning of the vote. </p>
+          </div>
+          <!--
+        <iframe class="geo__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22586.247807404856!2d-117.2061976646722!3d32.7002474839409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80deac9bc0a5749d%3A0x346959241f6081ef!2sNaval+Air+Station+North+Island!5e0!3m2!1sen!2sby!4v1538063305074" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+          <div class="geo__map" id="map_canvas"></div>
+        </section>
+
+      </main>
+
+      <footer class="page-footer">
+        <div class="page-footer__wrapper">
+          <a class="page-footer__logo" href="#">Geotrack</a>
+          <p class="page-footer__copyright">&#169; Geotrack Inc. All right reserved 2016</p>
+        </div>
+
+        <ul class="service">
+          <li class="service__item">
+            <a class="service__link" href="#">APP API</a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">Support</a>
+          </li>
+        </ul>
+
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="#">
+            <span class="visually-hidden">Facebook</span>
+            <svg width="21px" height="21px" version="1.1" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g transform="translate(1.000000, 1.000000)">
+              <path d="M54,58 L4,58 C1.791,58 0,56.209 0,54 L0,4 C0,1.791 1.791,0 4,0 L54,0 C56.209,0 58,1.791 58,4 L58,54 C58,56.209 56.209,58 54,58 L54,58 Z" fill="#86a3dd"/>
+              <path class="social__link--not-fill" d="M39.0432,58 L39.0432,35.696 L46.2462,35.696 L47.3202,27.003 L39.0432,27.003 L39.0432,21.454 C39.0432,18.94 39.7132,17.225 43.1872,17.225 L47.6142,17.219 L47.6142,9.45 C46.8472,9.342 44.2202,9.102 41.1612,9.102 C34.7782,9.102 30.4082,13.157 30.4082,20.596 L30.4082,27.003 L23.1822,27.003 L23.1822,35.696 L30.4082,35.696 L30.4082,58 L39.0432,58 L39.0432,58 Z" fill="#ffffff"/>
+            </g></g></svg>
+          </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+            <span class="visually-hidden">Twitter</span>
+            <svg width="21px" height="21px" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M4,440.5c55.6,5,105.7-9,151.3-43.2c-47.7-4.2-79.6-28-97.4-72.6c15.6,1.9,30.2,2.4,45.7-1.8   c-51.4-16-78.8-49.6-82.5-103.8c15.4,7.2,29.9,12.4,47,12.6c-30.5-22.9-46.1-52.6-45.5-90c0.3-17.2,4.9-33.4,14-48.7   C93.1,159.1,164,195.7,251.3,201.8c-0.5-3.8-0.8-6.8-1.2-9.9c-7.2-55.4,28.8-105.8,83.8-116.3c34.5-6.6,65,2.5,90.8,26.3   c4,3.6,7.4,4.4,12.4,3.1c20.1-5.1,39.2-12.5,57.7-22.5c-7.1,23.4-21.7,41-41.5,55.8c4.5-0.8,9.1-1.4,13.6-2.3   c4.7-1,9.4-2.1,14.1-3.4c4.5-1.2,8.9-2.6,13.3-4.1c4.5-1.5,9-3.2,14.3-4.1c-2.6,3.6-5.1,7.4-7.9,10.9c-11.6,14.7-25,27.6-39.7,39.1   c-1.5,1.2-2.8,3.8-2.7,5.6c0.8,35.5-4.2,70.1-15.7,103.7c-22.6,66.2-62,119.8-121.1,158.1c-29.2,18.9-61.1,31.3-95.2,38.5   c-33.8,7.1-67.8,8.4-101.9,4.4c-34.2-4-66.7-14.1-97.3-29.9c-8.1-4.1-15.9-8.7-23.8-13.1C3.6,441.3,3.8,440.9,4,440.5z" fill="#86a3dd"/></g></svg>
+          </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+            <span class="visually-hidden">Instagram</span>
+            <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            	 width="21px" height="21px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
+            <path fill="#86a3dd" d="M18,0H3C1.35,0,0,1.35,0,3v15c0,1.65,1.35,3,3,3h15c1.65,0,3-1.35,3-3V3C21,1.35,19.65,0,18,0z M10.5,7
+            	c1.93,0,3.5,1.57,3.5,3.5S12.43,14,10.5,14S7,12.43,7,10.5S8.57,7,10.5,7z M18,18H3V9h1.181C4.067,9.482,4,9.983,4,10.5
+            	c0,3.59,2.91,6.5,6.5,6.5s6.5-2.91,6.5-6.5c0-0.517-0.066-1.018-0.181-1.5H18V18z M18,7h-4V3h4V7z"/>
+            </svg>
+          </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+            <span class="visually-hidden">Vimeo</span>
+            <svg width="25px" height="25px" version="1.1" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" stroke="none"><g transform="translate(1.000000, 1.000000)">
+              <path d="M52.976,18.4797 C53.266,12.3087 50.931,9.1487 45.99,9.0087 C39.32,8.7937 34.799,12.4887 32.429,20.0847 C33.649,19.5847 34.834,19.3397 35.979,19.3397 C38.42,19.3397 39.495,20.6847 39.21,23.3807 C39.06,25.0207 37.99,27.3957 35.979,30.5207 C33.974,33.6407 32.464,35.2017 31.464,35.2017 C30.169,35.2017 28.989,32.7907 27.914,27.9657 C27.554,26.5457 26.904,22.9247 25.983,17.0997 C25.113,11.7037 22.818,9.1787 19.093,9.5387 C17.513,9.6837 15.142,11.1037 11.992,13.8047 C9.692,15.8597 7.362,17.9197 4.997,19.9747 L7.252,22.8547 C9.412,21.3597 10.662,20.6147 11.017,20.6147 C12.667,20.6147 14.207,23.1697 15.648,28.2857 C16.943,32.9607 18.228,37.6517 19.523,42.3417 C21.458,47.4577 23.823,50.0077 26.619,50.0077 C31.139,50.0077 36.669,45.8177 43.195,37.4367 C49.501,29.4207 52.766,23.1047 52.976,18.4797 L52.976,18.4797 Z" fill="#86a3dd"/>
+              </g></g></svg>
+          </a>
+          </li>
+        </ul>
+
+      </footer>
+    </div>
+    <!--- AIzaSyDHUFQjpC_h92-NpFkFF789Dvrw2oKBh6c     google API key-->
+  </div>
+
+  <script src="js/script.js">
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHUFQjpC_h92-NpFkFF789Dvrw2oKBh6c"></script>
+
+  <script src="js/marker.js"></script>
+
+</body>
+
+</html>
